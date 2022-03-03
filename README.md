@@ -1,5 +1,6 @@
 # OS-Assignment-1
 Program Description
+
 The purpose of this assignment was to implement the functions fork(), exec(), and wait()
 to create parent/child processes where the parent can communicate information to its children.
 We will be giving gender-name pairs (e.g. boy Nick) to our parent through the command line,
@@ -10,6 +11,7 @@ what gender they are, and what name they were given. We create the child process
 the fork() function, and execute them with the exec() function. Finally we will use the wait()
 function to make sure the parent does not complete its execution until all the child processes
 are done executing.
+
 The parent program is responsible for creating the child processes. We can do this with
 a for loop. We will run a for loop starting from i = 1 and ending when i <= (argc - 1). Remember
 that argc is an integer that represents the number of arguments passed in through the
